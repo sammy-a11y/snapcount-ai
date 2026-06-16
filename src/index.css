@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #F0F8FF;
+  color: #1A1A2E;
+  font-family: 'Inter', sans-serif;
+}
