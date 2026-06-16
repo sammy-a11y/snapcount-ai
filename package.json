@@ -1,4 +1,11 @@
+
 {
+  "name": "snapcount-ai",
+  "private": true,
+  "version": "0.0.0",
+  "engines": {
+  "node": "18.x"
+  },
   "name": "snapcount-ai",
   "private": true,
   "version": "0.0.0",
