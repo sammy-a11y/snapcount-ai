@@ -135,7 +135,7 @@ export default function Profile() {
     )
   }
 
-  console.log('Paystack key:', import.meta.env.VITE_PAYSTACK_KEY)
+
   return (
     <div className="min-h-screen pb-24" style={{ backgroundColor: '#F0F8FF' }}>
 
@@ -253,21 +253,6 @@ export default function Profile() {
                 />
               </div>
             ))}
-
-            {/* MANUAL UPGRADE VIA WHATSAPP */}
-            <div className="bg-green-50 border border-green-200 rounded-2xl p-4 flex items-center gap-3">
-              <FaWhatsapp className="text-green-500 text-2xl flex-shrink-0" />
-              <div className="flex-1">
-                <p className="text-gray-900 font-bold text-sm">Pay via WhatsApp</p>
-                <p className="text-gray-500 text-xs mt-0.5">Contact us to upgrade manually via bank transfer</p>
-              </div>
-              <a href="https://wa.me/2349169530731"
-                target="_blank"
-                rel="noreferrer"
-                className="bg-green-500 text-white text-xs font-bold px-3 py-2 rounded-xl hover:bg-green-600 transition whitespace-nowrap">
-                Chat Now
-              </a>
-            </div>
           </div>
         )}
 
