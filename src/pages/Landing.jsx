@@ -463,7 +463,7 @@ export default function Landing() {
             <p className="text-gray-400 mb-8 leading-relaxed">Have a question or need help? We are here 24/7. Reach out through any channel below and we will respond fast.</p>
             <div className="space-y-4">
               {[
-                { icon: <FaWhatsapp className="text-green-500 text-xl" />, label: 'WhatsApp Us', value: '+234 800 000 0000' },
+                { icon: <FaWhatsapp className="text-green-500 text-xl" />, label: 'WhatsApp Us', value: '+234 9066258424' },
                 { icon: <FaInstagram className="text-pink-500 text-xl" />, label: 'Instagram', value: '@snapcountai' },
                 { icon: <FaTwitter className="text-blue-400 text-xl" />, label: 'Twitter / X', value: '@snapcountai' },
               ].map((item, i) => (
