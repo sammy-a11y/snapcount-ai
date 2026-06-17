@@ -96,7 +96,7 @@ photos.forEach(photo => {
   backendForm.append('photos', photo.file)
 })
 
-const response = await fetch('http://localhost:3001/scan', {
+const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/scan`, {
   method: 'POST',
   body: backendForm
 })
